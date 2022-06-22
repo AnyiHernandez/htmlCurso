@@ -1,0 +1,34 @@
+.main-nav__item {
+  /* para cambiar a vertical la lista*/
+  display: inline-block;
+}
+.main-nav__item a {
+  color: rgb(161, 31, 31);
+  /* borde interno */
+  padding: 5px;
+  /* borde de cajas o botones*/
+  border-radius: 2px;
+  /* quita la linea de link  */
+  text-decoration: none;
+}
+
+.main-nav {
+  margin-top: 10px;
+  /* quita los puntos dela lista desordenada */
+  list-style: none;
+  padding-left: 0%;
+  background-color: blanchedalmond;
+}
+/* *SEUDOCLASE/*/
+.main-nav__item a:hover {
+  color: rgb(66, 28, 173);
+}
+/* *SEUDOCLASE/*/
+.main-nav__item a:active {
+  color: fuchsia;
+}
+
+/* *SEUDOELEMENTOS/*/
+.main-nav__item a::after {
+  content: "/";
+}
