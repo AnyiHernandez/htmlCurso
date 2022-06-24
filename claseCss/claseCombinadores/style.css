@@ -1,0 +1,21 @@
+/*
+hermanos adyacentes o cercanos:aplique a la etiqueta p que este cerca de h2 
+h2 + p {
+    color: red;
+} */
+
+/* hermanos generales
+h2 ~ p{
+    color:red
+}*/
+
+/*hijo
+div > p {
+  color: red;
+}
+*/
+
+/*descendiente
+div p{
+    color: red;
+}*/
